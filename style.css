@@ -1,5 +1,5 @@
 * { margin: 0px; padding: 0px; box-sizing: border-box; font-family: myfont; }
-@font-face { font-family: myfont; src: url("/fonts/Montserrat-Medium.ttf"); }
+@font-face { font-family: myfont; src: url("fonts/Montserrat-Medium.ttf"); }
 html.has-scroll-smooth
 {
     overflow: hidden;
@@ -41,7 +41,7 @@ html.has-scroll-smooth
 .list { flex: 0 0 33%; padding: 13px 0px; }
 .list img { height: 20px; width: 20px; }
 .test2-box { flex-basis: 80%; }
-.container7 { background-image: url("/images/background3.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 642px; position: relative; z-index: 3; }
+.container7 { background-image: url("images/background3.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 642px; position: relative; z-index: 3; }
 .form { }
 .form-con { background: white; position: absolute; padding: 20px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; right: 7%; top: 5%; border-radius: 4px; }
 .form-con button { border: none; background: orangered; padding: 10px 8px 4px; border-radius: 4px; }
