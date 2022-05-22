@@ -156,4 +156,13 @@ footer { background: black; color: white; display: flex; /* flex-flow: row wrap;
     line-height: 20px;
     height: 381px;
 }
+    .container7 {
+    background-image: url(/images/background3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 77vh;
+    position: relative;
+    z-index: 3;
+}
 }
