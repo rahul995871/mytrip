@@ -165,4 +165,9 @@ footer { background: black; color: white; display: flex; /* flex-flow: row wrap;
     position: relative;
     z-index: 3;
 }
+    .feat-box{
+  padding: 4px 27px;
+  display: inline-block;
+  width:100%;
+}
 }
