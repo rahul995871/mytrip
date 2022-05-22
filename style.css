@@ -94,6 +94,26 @@ footer { background: black; color: white; display: flex; /* flex-flow: row wrap;
   display: flex;
   gap:10px;
 }
+.sidenav{
+  position:absolute;
+top: 0;
+right: 0;
+color: oldlace;
+background: seashell;
+width: 61%;
+height: 100%;
+color: black;
+padding: 25px 12px;
+list-style-type: none;
+z-index: 1;
+display: none;
+}
+.sidenav ul{
+  padding: 0px 12px;
+list-style-type: none;}
+.sidenav ul li{
+
+padding: 18px 0px;}
 @media (max-width:768px) {
   .content {
     text-align: center;
@@ -156,8 +176,8 @@ footer { background: black; color: white; display: flex; /* flex-flow: row wrap;
     line-height: 20px;
     height: 381px;
 }
-    .container7 {
-    background-image: url(/images/background3.jpg);
+.container7 {
+    background-image: url(images/background3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,9 +185,22 @@ footer { background: black; color: white; display: flex; /* flex-flow: row wrap;
     position: relative;
     z-index: 3;
 }
-    .feat-box{
+.feat-box{
   padding: 4px 27px;
   display: inline-block;
   width:100%;
+}
+.navbar ul{
+  display: none;
+}
+.navbar {
+    display:inline-block;
+    /* justify-content: center; */
+
+    position: absolute;
+    top: -12px;
+    width: 100%;
+    /* justify-content: space-around; */
+    left: 16px;
 }
 }
