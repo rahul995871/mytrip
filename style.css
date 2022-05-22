@@ -161,7 +161,7 @@ footer { background: black; color: white; display: flex; /* flex-flow: row wrap;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 77vh;
+    height:700px;
     position: relative;
     z-index: 3;
 }
